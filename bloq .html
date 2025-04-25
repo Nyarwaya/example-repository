@@ -1,0 +1,60 @@
+<section class="blog section" id="blog">
+    <h2 class="section-title">Blog</h2>
+  
+    <div class="blog__container container">
+      <!-- Blog Post 1 -->
+      <div class="blog__post">
+        <h3 class="blog__title">How I Got Started in Web Development</h3>
+        <p class="blog__excerpt">In this post, I share my journey into coding, from my first HTML page to building real projects...</p>
+        <a href="#" class="blog__read-more">Read More</a>
+      </div>
+  
+      <!-- Blog Post 2 -->
+      <div class="blog__post">
+        <h3 class="blog__title">Top 5 Tips for Beginners in JavaScript</h3>
+        <p class="blog__excerpt">JavaScript can feel overwhelming at first. Here's how I tackled it with simple techniques...</p>
+        <a href="#" class="blog__read-more">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <style>
+
+  /*=== Blog Section ===*/
+.blog__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog__post {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-left: 4px solid #007bff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.blog__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog__excerpt {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.blog__read-more {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog__read-more:hover {
+  text-decoration: underline;
+}
+</style>
